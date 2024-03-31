@@ -133,7 +133,7 @@ If you have a suggestion that would improve this project, please fork the repo a
 
 This project is licensed under the MIT License - see the **LICENSE** file for details.
 ## Contact
-For any questions or suggestions regarding this project or if you want to collaborate on a project, please feel free to reach out!
+For any questions, suggestions, or collaborations on a project, please feel free to reach out!
 
 **Maina Gerald**   
 GitHub: [@mainagerald](https://github.com/mainagerald)  

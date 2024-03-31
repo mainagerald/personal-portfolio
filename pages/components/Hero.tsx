@@ -209,8 +209,8 @@ export default function Hero({}: Props) {
       {/* Hero Image */}
       <div className="object-cover w-full h-full absolute flex items-center justify-center z-[-20]">
         <Image
-          src="/assets/images/hero.webp"
-          alt="Photo of me"
+          src="/assets/images/pexel.JPG"
+          alt="hero"
           layout="fill"
           objectFit="cover"
           id="heroImage"

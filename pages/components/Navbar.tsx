@@ -21,7 +21,7 @@ export default function Navbar({}: Props) {
       {/* Logo */}
       <Link href="/">
         <h1 className="text-primary_dark text-md " id="navName">
-          Rm
+          F.M.G
         </h1>
       </Link>
       {/* Links */}
