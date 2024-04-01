@@ -12,16 +12,15 @@ type Props = {};
 export default function About({}: Props) {
   const [text] = useTypewriter({
     words: [
-      "skateboard around the city",
-      "swim",
-      "solve a lot of cubes",
-      "learn how to center a div",
-      "gulp down a cup of coffee and sit down to code my side projects",
-      'watch "Silicon Valley" for the 100th time',
-      "headbang to eden music",
+      "pump some iron at the local gym",
+      "solve a rubik's cube",
+      "play fc24",
+      "watch Manchester United fumble a game of football",
+      'brainstorm entrepreneurial ideas',
+      "analyze the stock market",
       "am committing thousands of lines of code saying 'fixed a typo'",
-      "am trying to figure out how to make my website look better",
-      "Improving PitchForkPilot",
+      "am trying to figure out how to make my portfolio website look better",
+      "tune into Marquees Brown's channel to catch up on the latest releases",
       ""
     ],
     loop: true,
@@ -53,7 +52,7 @@ export default function About({}: Props) {
         <div className="w-[100vw] min-h-[50vh] md:w-[95vw] md:min-h-[100vh] px-[5vh] py-[2vh]">
           <Image
             ref={aboutSectionImage}
-            src="/assets/images/about.webp"
+            src="/assets/images/self.webp.JPG"
             alt="Photo of Flavian"
             width={0}
             height={0}
@@ -74,40 +73,32 @@ export default function About({}: Props) {
           id="aboutMe"
         >
           <h2 className=" md:text-[1.7rem] lg:text-[2.2rem] xl:text-[3rem] text-tertiary">
-            Let me spill something about myself
+            Get to know me :)
           </h2>
           <p className="leading-relaxed md:text-[1.3rem] lg:text-[1.5rem] ">
             My name is{" "}
             <span className="md:text-[1.3rem] lg:text-[1.5rem] font-medium">
               Flavian Maina
             </span>
-            . I am a creative and passionate developer who loves to build
-            interactive experiences for the web based in Arizona, USA. I study
-            MS in Computer Science at{" "}
+            . I am a creative and passionate software developer who loves to build
+            interactive and efficient experiences for applications and systems. I am currently working as DevOps at
             <span className="underline decoration-accent font-medium md:text-[1.3rem] lg:text-[1.5rem] ">
-              Arizona State University.
+              Equity Group Holdings Ltd.
             </span>
-            &nbsp;Go Sun Devils!
+            {/* &nbsp;Go! */}
           </p>
           <p className="leading-relaxed md:text-[1.3rem] lg:text-[1.5rem] ">
-            I have always had a knack for solving problems with code and design.
-            My core interests are Front-End development and Mobile Applications
-            Development. I don&apos;t necessarily shy away from backend and also
-            to catch the hype train to learn the new frameworks and technologies
-            that will help me expand my software engineering horizon.
+            I have always had a knack for solving problems with code, design and optimal implementation.
+            My core interest is fullstack development with a backend focus and I am also exploring the exciting world of web3 and blockchain as I look to expand my engineering scope.
           </p>
           <p className="leading-relaxed md:text-[1.3rem] lg:text-[1.5rem] ">
             {" "}
-            I interned at Rubrik Inc. for 5 months as Customer Success Engineer
-            back in Bengaluru, India . I am currently on the lookout of software
-            engineering Summer 2024 interships opportunities. Please do reach
-            out to me if you think I&apos;ll be a good fit in your team. Also I
-            would never say no to referrals{" "}
-            <span className="md:text-[1.3rem] lg:text-[1.5rem]">😉</span>
+            My career goal is to continue growing and acquiring optimal skills that are in high demand within the industry. I am passionate about connecting with fellow professionals and expanding my network!
+            {/* <span className="md:text-[1.3rem] lg:text-[1.5rem]">😉</span> */}
           </p>
 
           <p className="leading-relaxed md:text-[1.3rem] lg:text-[1.5rem] ">
-            The times I&apos;m not worrying about projects and deadlines, I{" "}
+            The times I&apos;m not worrying about deadlines and tasks, I{" "}
             <span className="text-accent font-medium text-start  md:text-[1.3rem] lg:text-[1.5rem]">
               {text}
               <Cursor cursorBlinking cursorColor="#252422" />
