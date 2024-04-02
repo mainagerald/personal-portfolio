@@ -6,7 +6,7 @@ type Props = {};
 
 const skills = [
   { imagePath: "java", altText: "Java", skillName: "Java" },
-  { imagePath: "c", altText: "C", skillName: "C++" },
+  { imagePath: "c#", altText: "C#", skillName: "C#" },
   { imagePath: "python", altText: "Python", skillName: "Python" },
   { imagePath: "javascript", altText: "javascript", skillName: "Javascript" },
   { imagePath: "typescript", altText: "typescript", skillName: "Typescript" },
@@ -34,12 +34,12 @@ const skills = [
   { imagePath: "postgres", altText: "Postgres", skillName: "Postgres" },
   { imagePath: "firebase", altText: "Firebase", skillName: "Firebase" },
   { imagePath: "mysql", altText: "SQL", skillName: "SQL" },
-  { imagePath: "git", altText: "Git", skillName: "Git" },
+  { imagePath: "got", altText: "Git", skillName: "Git" },
 ];
 
 const languages = [
-  { imagePath: "java", altText: "Java", skillName: "Java" },
-  { imagePath: "c", altText: "C", skillName: "C++" },
+  { imagePath: "sjava", altText: "Java", skillName: "Java" },
+  { imagePath: "c#", altText: "C#", skillName: "C#" },
   { imagePath: "python", altText: "Python", skillName: "Python" },
   { imagePath: "javascript", altText: "javascript", skillName: "Javascript" },
   { imagePath: "typescript", altText: "typescript", skillName: "Typescript" },

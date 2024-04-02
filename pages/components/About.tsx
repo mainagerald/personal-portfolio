@@ -78,7 +78,7 @@ export default function About({}: Props) {
           <p className="leading-relaxed md:text-[1.3rem] lg:text-[1.5rem] ">
             My name is{" "}
             <span className="md:text-[1.3rem] lg:text-[1.5rem] font-medium">
-              Flavian Maina
+              Flavian Maina Gerald
             </span>
             . I am a creative and passionate software developer who loves to build
             interactive and efficient experiences for applications and systems. I am currently working as DevOps at
