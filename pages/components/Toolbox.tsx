@@ -38,7 +38,7 @@ const skills = [
 ];
 
 const languages = [
-  { imagePath: "sjava", altText: "Java", skillName: "Java" },
+  { imagePath: "java", altText: "Java", skillName: "Java" },
   { imagePath: "c#", altText: "C#", skillName: "C#" },
   { imagePath: "python", altText: "Python", skillName: "Python" },
   { imagePath: "javascript", altText: "javascript", skillName: "Javascript" },

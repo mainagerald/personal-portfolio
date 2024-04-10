@@ -222,6 +222,7 @@ export default function Hero({}: Props) {
           <h1
             className="outline_sm md:outline_lg text-[10vw] py-5 text-transparent  transform translate-y-full"
             id="heroTextContainer"
+            style={{ fontFamily: 'Arial, sans-serif' }}
           >
             Hey, I&apos;m Flavian
           </h1>
