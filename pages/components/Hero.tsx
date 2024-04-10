@@ -209,7 +209,7 @@ export default function Hero({}: Props) {
       {/* Hero Image */}
       <div className="object-cover w-full h-full absolute flex items-center justify-center z-[-20]">
         <Image
-          src="/assets/images/pexel.JPG"
+          src="/assets/images/skyline.jpg"
           alt="hero"
           layout="fill"
           objectFit="cover"
@@ -222,7 +222,7 @@ export default function Hero({}: Props) {
           <h1
             className="outline_sm md:outline_lg text-[10vw] py-5 text-transparent  transform translate-y-full"
             id="heroTextContainer"
-            style={{ fontFamily: 'Arial, sans-serif' }}
+            style={{ fontFamily: 'Arial, sans-serif', textTransform:'none' }}
           >
             Hey, I&apos;m Flavian
           </h1>
